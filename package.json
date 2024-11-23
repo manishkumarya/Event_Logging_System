@@ -1,0 +1,20 @@
+{
+  "name": "event-logging-system",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "event-logging-system": "file:",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2"
+  }
+}
